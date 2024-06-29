@@ -25,10 +25,10 @@ Docker Hub is a cloud-based repository for storing and sharing Docker images. It
 
 ### Project Structure 🗂️
 
-'''bash
+```bash
 docker build .
-'''
-'''bash
+```
+```bash
 docker build -t mywebapp .
-'''
+```
 
