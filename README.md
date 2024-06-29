@@ -25,7 +25,7 @@ Docker Hub is a cloud-based repository for storing and sharing Docker images. It
 
 ### Project Structure 🗂️
 
-1. Create react based web app
+1.Create react based web app
 
 follow this command if react is not installed
 ```bash
@@ -34,9 +34,9 @@ npm install -g create-react-app
 ```bash
 npx create-react-app testapp
 ```
-2.Create Docker File provided in repository
+2.Create Docker File provided in repository can download Node form docker hub.
 
-3.To build Docker Image
+3.Build Docker Image
 ```bash
 docker build .
 ```
@@ -44,4 +44,32 @@ Build Image with tag
 ```bash
 docker build -t mywebapp01 .
 ```
+
+4.list the Docker Images
+```bash
+docker image ls
+```
+
+5.list Running containers
+```bash
+dcoker ps
+```
+list all containers
+```bash
+dcoker ps -a
+```
+
+6.Start a Docker container from an image and map ports between the host and the container.
+```bash
+docker run –p 3000:3000 image_id
+docker run -d --rm --name "mywebaap" –p 3000:3000 image_id
+```
+-d: This option runs the container in detached mode, meaning it runs in the background.
+--rm: This option automatically removes the container when it exits, which helps in cleaning up after temporary containers.
+--name "my_webapp": This option assigns a name to the container. In this case, the container is named "my_webapp". Naming a container makes it easier to reference it later (e.g., for stopping or inspecting the container).
+
+
+```
+
+
 
