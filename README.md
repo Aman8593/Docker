@@ -65,11 +65,19 @@ docker run –p 3000:3000 image_id
 docker run -d --rm --name "mywebaap" –p 3000:3000 image_id
 ```
 -d: This option runs the container in detached mode, meaning it runs in the background.
+
 --rm: This option automatically removes the container when it exits, which helps in cleaning up after temporary containers.
+
 --name "my_webapp": This option assigns a name to the container. In this case, the container is named "my_webapp". Naming a container makes it easier to reference it later (e.g., for stopping or inspecting the container).
 
 
+7.Stop running container
+```bash
+docker stop ‘container name’
 ```
+
+
+
 
 
 
