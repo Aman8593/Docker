@@ -25,10 +25,23 @@ Docker Hub is a cloud-based repository for storing and sharing Docker images. It
 
 ### Project Structure 🗂️
 
+1. Create react based web app
+
+follow this command if react is not installed
+```bash
+npm install -g create-react-app
+```
+```bash
+npx create-react-app testapp
+```
+2.Create Docker File provided in repository
+
+3.To build Docker Image
 ```bash
 docker build .
 ```
+Build Image with tag
 ```bash
-docker build -t mywebapp .
+docker build -t mywebapp01 .
 ```
 
