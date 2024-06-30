@@ -88,15 +88,27 @@ docker run -d --name "mywebapp" -p 3001:3000 image_id
 * Make sure to specify different host ports for each version to avoid conflicts.
 
 
-8.Delete Image
+8. Delete Image
 
 ```bash
 docker rmi mywebapp:02
 ```
 
-9.Stop running container
+9. Stop running container
 ```bash
 docker stop ‘container name’
 ```
 
 ### Screenshots
+
+![Screenshot (39)](https://github.com/Aman8593/Docker/assets/104978692/620f820b-61ac-4bb7-826b-c04f7b5bceaf)
+
+![Screenshot (40)](https://github.com/Aman8593/Docker/assets/104978692/3b2e1530-0828-431b-b7d8-fafbd622e3fc)
+
+![Screenshot (41)](https://github.com/Aman8593/Docker/assets/104978692/76022da2-14ad-4020-b3ef-81b2d7d5e03a)
+
+![Screenshot (42)](https://github.com/Aman8593/Docker/assets/104978692/7838aeb1-2bc6-497e-87e4-2f757f83d8bc)
+
+![Screenshot (43)](https://github.com/Aman8593/Docker/assets/104978692/fd2c3e66-f6de-4f4d-8f11-a0b873094718)
+
+![Screenshot (44)](https://github.com/Aman8593/Docker/assets/104978692/4db54685-54c7-4cf0-b89b-6e67d414ceda)
