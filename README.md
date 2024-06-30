@@ -112,3 +112,6 @@ docker stop ‘container name’
 ![Screenshot (43)](https://github.com/Aman8593/Docker/assets/104978692/fd2c3e66-f6de-4f4d-8f11-a0b873094718)
 
 ![Screenshot (44)](https://github.com/Aman8593/Docker/assets/104978692/4db54685-54c7-4cf0-b89b-6e67d414ceda)
+
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.altexsoft.com%2Fblog%2Fdocker-pros-and-cons%2F&psig=AOvVaw1o4ElQyKbeAeqiyKiB6iHG&ust=1719845198958000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjWw-fIg4cDFQAAAAAdAAAAABAR)
+
