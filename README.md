@@ -101,7 +101,7 @@ docker stop ‘container name’
 
 ### Screenshots
 
-![image](https://github.com/Aman8593/Docker/assets/104978692/0a0c2ad8-9df8-4ee5-9b9b-9a602029833c)
+![image](https://github.com/Aman8593/Docker/assets/104978692/3f2eb674-7b23-4176-a7be-c6b9051cc718)
 
 ![image](https://github.com/Aman8593/Docker/assets/104978692/54dd9f4c-8abe-4a9c-8b2a-790e6f7b0988)
 
