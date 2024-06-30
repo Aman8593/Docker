@@ -25,7 +25,7 @@ Docker Hub is a cloud-based repository for storing and sharing Docker images. It
 
 ### Project Structure 🗂️
 
-1.Create react based web app
+1. Create react based web app
 
 follow this command if react is not installed
 ```bash
@@ -34,9 +34,9 @@ npm install -g create-react-app
 ```bash
 npx create-react-app testapp
 ```
-2.Create Docker File provided in repository can download Node form docker hub.
+2. Create Docker File provided in repository can download Node form docker hub.
 
-3.Build Docker Image
+3. Build Docker Image
 ```bash
 docker build .
 ```
@@ -59,7 +59,7 @@ list all containers
 dcoker ps -a
 ```
 
-6.Start a Docker container from an image and map ports between the host and the container.
+6. Start a Docker container from an image and map ports between the host and the container.
 ```bash
 docker run –p 3000:3000 image_id
 docker run -d --rm --name "mywebaap" –p 3000:3000 image_id
@@ -70,14 +70,33 @@ docker run -d --rm --name "mywebaap" –p 3000:3000 image_id
 
 --name "my_webapp": This option assigns a name to the container. In this case, the container is named "my_webapp". Naming a container makes it easier to reference it later (e.g., for stopping or inspecting the container).
 
+7. Update the project
+   
+i. Create new version to update a project by using new build
 
-7.Stop running container
+```bash
+docker build –t mywebapp:02
+```
+
+ii. After that run the docker container on different port
+```bash
+docker run -d --name "mywebapp" -p 3001:3000 image_id
+```
+### Some Key Points:
+
+* You can run multiple versions of the application simultaneously using different tags and ports. This allows for easy comparison and rollback if necessary.
+* Make sure to specify different host ports for each version to avoid conflicts.
+
+
+8.Delete Image
+
+```bash
+docker rmi mywebapp:02
+```
+
+9.Stop running container
 ```bash
 docker stop ‘container name’
 ```
 
-
-
-
-
-
+### Screenshots
