@@ -45,12 +45,12 @@ Build Image with tag
 docker build -t mywebapp01 .
 ```
 
-4.list the Docker Images
+4. list the Docker Images
 ```bash
 docker image ls
 ```
 
-5.list Running containers
+5. list Running containers
 ```bash
 dcoker ps
 ```
